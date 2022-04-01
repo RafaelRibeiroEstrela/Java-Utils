@@ -16,7 +16,7 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
-import rafaelribeiroestrela.com.github.utilidades.model.Email;
+import rafaelribeiroestrela.com.github.utilidades.models.Email;
 import rafaelribeiroestrela.com.github.utilidades.services.exceptions.ApiException;
 
 public class EmailUtil {
@@ -30,6 +30,7 @@ public class EmailUtil {
 		properties.put("mail.smtp.port", "465");
 		properties.put("mail.smtp.ssl.enable", "true");
 		properties.put("mail.smtp.auth", "true");
+		properties.put("mail.smtp.connectiontimeout", 10000);
 
 		// Get the Session object.// and pass username and password
 		Session session = Session.getInstance(properties, new javax.mail.Authenticator() {

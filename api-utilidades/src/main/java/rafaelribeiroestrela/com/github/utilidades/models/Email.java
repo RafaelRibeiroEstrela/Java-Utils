@@ -1,4 +1,4 @@
-package rafaelribeiroestrela.com.github.utilidades.model;
+package rafaelribeiroestrela.com.github.utilidades.models;
 
 import java.io.Serializable;
 import java.util.HashSet;
