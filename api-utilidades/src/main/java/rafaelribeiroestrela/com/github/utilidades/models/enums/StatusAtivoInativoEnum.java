@@ -1,6 +1,6 @@
 package rafaelribeiroestrela.com.github.utilidades.models.enums;
 
-import rafaelribeiroestrela.com.github.utilidades.services.exceptions.ApiException;
+import rafaelribeiroestrela.com.github.utilidades.exceptions.ApiException;
 
 public enum StatusAtivoInativoEnum {
 

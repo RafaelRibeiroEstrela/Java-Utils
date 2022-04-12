@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
-import rafaelribeiroestrela.com.github.utilidades.services.exceptions.ApiException;
+import rafaelribeiroestrela.com.github.utilidades.exceptions.ApiException;
 
 public class DateUtil {
 	

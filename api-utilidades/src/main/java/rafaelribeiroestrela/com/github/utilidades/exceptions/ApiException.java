@@ -1,4 +1,4 @@
-package rafaelribeiroestrela.com.github.utilidades.services.exceptions;
+package rafaelribeiroestrela.com.github.utilidades.exceptions;
 
 public class ApiException extends RuntimeException{
 

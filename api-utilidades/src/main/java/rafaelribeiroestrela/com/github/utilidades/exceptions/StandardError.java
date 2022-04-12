@@ -1,4 +1,4 @@
-package rafaelribeiroestrela.com.github.utilidades.resources.exceptions;
+package rafaelribeiroestrela.com.github.utilidades.exceptions;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

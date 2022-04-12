@@ -16,8 +16,8 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
+import rafaelribeiroestrela.com.github.utilidades.exceptions.ApiException;
 import rafaelribeiroestrela.com.github.utilidades.models.Email;
-import rafaelribeiroestrela.com.github.utilidades.services.exceptions.ApiException;
 
 public class EmailUtil {
 
