@@ -9,9 +9,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import rafaelribeiroestrela.com.github.utilidades.exceptions.ApiException;
-import rafaelribeiroestrela.com.github.utilidades.exceptions.StandardError;
-
 @ControllerAdvice
 public class ExceptionResource {
 	
