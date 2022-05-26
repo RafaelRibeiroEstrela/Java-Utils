@@ -19,7 +19,7 @@ public class ExceptionResource {
 		err.setStatus(HttpStatus.BAD_REQUEST.value());
 		err.setError(e.getMessage());
 		err.setPath(request.getRequestURI());
-		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(err);
+		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(err);
 	}
 
 }
